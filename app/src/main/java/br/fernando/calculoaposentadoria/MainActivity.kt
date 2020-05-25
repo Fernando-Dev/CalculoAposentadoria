@@ -28,7 +28,8 @@ class MainActivity : AppCompatActivity() {
         // criando as opcoes do spinner
         spn_sexo.adapter = ArrayAdapter<String>(
             this,
-            android.R.layout.simple_spinner_dropdown_item, listOf("Feminino", "Masculino")
+            android.R.layout.simple_spinner_dropdown_item,
+            listOf("Feminino", "Masculino")
         )
 
         btn_calcular.setOnClickListener {
